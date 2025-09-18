@@ -1,0 +1,20 @@
+{"name":"Steve",
+
+"profession": "Software Engineer",
+"age": 22,
+"residence": "S. Korea",
+"adress": "Busan, S.Korea",
+"languages":["Uzbek", "Korean", "English"],
+"skills":["Httml", "Css", "JavaScript"],
+"extra skilss":["Bootstrap,Materializ","Styling","Django"],
+"work place": "IT Company",
+"service desk": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+"about me": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. ",
+"city": "Fergana",
+"title":["Flower", "Seedlings", "Gardner", "Old", "New"],
+"flower desk":[" What is a flower?", "What is a Seedling?","What is a Gardner?"],
+"flower name":["Tulip", "Puppy", "Sunflower","Rose", "blossom"],
+"flower price":["20$","25$","10$", "15$","7$"],
+"famous words":["Worl is beautiful with flowers"],
+"famous name":["Steve Jobs"]
+}
