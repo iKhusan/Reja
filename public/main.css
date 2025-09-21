@@ -1,0 +1,609 @@
+.frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #e5e5e5;
+}
+.frame .main_frame {
+    position: relative;
+    width: 1440px;
+    height: 1312px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    
+}
+.main_frame .left_frame {
+    position: relative;
+    width: 305px;
+    height: 1315px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.main_frame .mid_frame {
+    position: relative;
+    width: 970px;
+    height: 1259px;
+    margin-left: 30px;
+    margin-right: 27px; 
+    display: flex;
+    flex-direction: column;
+   
+}
+.main_frame .right_frame {
+    position: relative;
+    width: 108px;
+    height: 1315px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.left_1 {
+    position: relative;
+    width: 228px;
+    height: 267px;
+    margin-top: 50px;
+    margin-left: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.marginer{
+    /* Line 6 */
+Width: 220px;
+Height: 0px;
+margin-top: 39px;
+margin-left: 40px;
+margin-bottom: 25px ;
+ border: 1.5px solid #f0f0f6; 
+
+}
+.left_2 {
+    position:relative;
+    width: 221px;
+    height: 126px;
+    margin-left: 44px;
+    
+}
+.name{
+    position: relative;
+width: 66.63px;
+height: 20.9px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 6.65px;
+
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 123.6%;
+justify-content: center;
+text-transform: capitalize;
+
+}
+.left_3 {
+    /* Languages */
+position: relative;
+width: 220px;
+height: 153px;
+margin-left: 44px;
+margin-top: 25px;
+
+}
+.profession{
+    /* heart */
+width: 147.84px;
+height: 24.31px;
+
+font-family: sans-serif;
+font-size: 15px;
+font-weight: normal;
+line-height: 24px;
+font-style: normal;
+margin-bottom: 18.1px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: capitalize;
+font-feature-settings: "calt"off, 'kern' off;
+
+}
+.left_4 {
+    /* Skills */
+position: relative;    
+width: 220px;
+height: 242px;
+margin-left: 44px;
+margin-top: 25px;
+
+}
+.left_5 {
+/* Extra Skills */
+position: relative;
+width: 186px;
+height: 148px;
+margin-left: 44px;
+margin-top: 25px;
+
+}
+.pro_image {
+display: flex;
+flex-direction: column;
+position: relative;
+Width: 156.16px;
+Height: 142.53px;
+margin-bottom: 29.46px;
+}
+.iconlar{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+width: 238px;
+margin-top: 19px;    
+}
+
+
+.link_href{
+text-decoration: none;
+color: black;
+
+
+}
+.icon{
+position: relative;
+width: 24.99px;
+height: 22.8px; 
+border-radius: 50%;
+filter: drop-shadow(0 4px 4px rgba(0,0,0,.25)); 
+background: #ffb400;
+}
+.icon-1{
+position: relative;
+left:29.17%;
+right: 27.08%;
+margin-top: 5.86px;
+}
+.info{
+    position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+ grid-template-columns: auto 1fr;
+margin-bottom: 7px;
+
+}
+.key{
+    position: relative;
+    background-color: orange;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    padding: 3px 7px;
+    width: 100px;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+.value {
+text-align: center;
+}
+.available{
+    color: green;
+    font-weight: bold;
+}
+.info2 {
+ position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.lang {
+    /* Languages */
+    position: relative;
+    justify-content: space-between;
+width: 95px;
+height: 22px;
+font-family: Inter;
+font-size: 18px;
+font-weight: bold;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.lang2 {
+    /* English */
+ position: relative;
+justify-content: space-between;
+width: 57px;
+height: 24px;
+
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.foiz2{
+    /* 80% */
+    position: relative;
+    display: flex;
+    justify-content: right;
+width: 31px;
+height: 24px;
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.foiz {
+/* 100% */
+position: relative;
+display: flex;
+justify-content: space-between;
+width: 38px;
+height: 24px; 
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.line {
+    /* Line */
+
+display: flex;
+border-radius: 30px;
+Width: 220px;
+Height: 4px;
+Top: 600px;
+Left: 47px;
+background: #fff3cd; /* och sariq fon */
+border: 2px solid orange;
+
+}
+.line-fill{
+height: 100%;
+width: 0;
+background: orange;    
+}
+.info3 {position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.keys{
+  position: relative;
+justify-content: space-between;
+width: 57px;
+height: 24px;
+
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;   
+}
+.info4{
+position: relative;
+display: flex;
+margin-top: 5px;
+
+
+align-items: left;
+flex-direction: column;
+
+}
+.skill1{
+    margin-bottom: 10px;
+position: relative;
+
+    
+width: 95px;
+height: 22px;
+font-family: Inter;
+font-size: 18px;
+font-weight: bold;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;   
+}
+.icons{
+position: relative;
+display: inline-block;
+margin-right: 10px;
+flex-direction: column;
+}
+.hero{
+    position: relative;
+    display: flex;
+}
+.main{
+/* Background Image */
+width: 971px;
+height: 454.33px; 
+background-color: white;   
+}
+.hero-img img{
+ /* Background Image */
+ position: relative;
+width: 326px;   /* Siz o‘lchamni xohlagancha o‘zgartirishingiz mumkin */
+      height: 447px;
+    z-index: 2;
+      top: 19.46px;
+      left: 160.3px;
+      border-radius: 8px; /* Burchaklarni yumaloqlash */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  
+}
+.shape {
+    z-index: 1;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.shape.square {
+  border:3px solid #ff6600;
+}
+
+.shape.circle {
+    
+  border:3px solid #ffb400;
+  border-radius: 50%;
+}
+
+.shape.square.aqua{
+    color: aqua;
+
+}
+
+   
+
+.hero-text{
+Font: Inter;
+top: 50px;
+margin-left: 40px;
+position: relative;
+word-wrap: break-word;
+line-height: 1.5;
+width: 400px;
+letter-spacing: 0%;
+
+}
+.btn{
+   display: inline-flex;          /* text va iconni yonma-yon joylaydi */
+    align-items: center;           /* vertikal tekislaydi */
+    gap: 8px;                      /* text va strelka orasidagi masofa */
+    padding: 10px 20px;
+    
+    background: #eee;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+   border-radius: 4px;
+background-color: #ffb400;
+
+}
+
+
+
+
+
+
+
+
+
+.mid_bottom {
+    Width: 1440px;
+Height: 8063px;
+
+margin-top: 200px;
+
+  position: relative;
+       /* kerakli kenglik */
+  text-align: center;
+ 
+}
+.ser1{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+margin-bottom: 20px;
+left: 270px;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+align-items: center;
+text-transform: capitalize;
+    position:relative;
+    display:grid;
+    text-align: center;
+    /* my services */
+width: 193px;
+height: 40px;
+    
+    /* my services */
+width: 193px;
+height: 40px;
+}
+.services{
+    position: relative;
+    top: 50px;
+}
+.section-title {
+    
+  text-align: center;
+   max-width: 600px;  
+  margin: 0 auto 40px;  
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-title p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+  
+}
+.txt{
+    width: 438px;
+height: 68px;
+top: 671px; 
+left: 583px;  
+font-family: Inter;
+font-size: 15px;
+display: inline;
+align-items: center;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+margin: auto;
+margin-top:20px ;
+text-transform: capitalize;    
+}
+.services-grid {
+    
+  margin-top: 90px; 
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,auto);
+    margin-right: 30px;
+    margin-left: 20px;
+  display: grid;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 976px;
+  justify-content: center;
+}
+
+.service-box {
+flex: 1 1 calc(33.333% - 40px); 
+ Width: 280px;
+Height: 225px;
+
+padding: 20px;
+text-align: center;
+background-color: white;
+   
+  
+}
+
+.service-box:hover {
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-box img {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+.right-sidebar{
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+}
+
+.right-sidebar ul {
+ 
+  padding: 0;
+  
+  margin: 0;
+}
+
+.right-sidebar ul li {
+    list-style: none;
+    
+  margin: 15px 0;
+  text-align: center;
+  position: relative;
+}
+
+
+
+/* Dumaloq sariq icon */
+.icon-circle {
+  width: 45px;
+top: 50px;
+margin-bottom: 50px;
+  height: 45px;
+ position: relative;
+  border-radius: 50%;
+   /* sariq */
+  display: flex;
+  background: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  
+  transition: background 0.3s;
+}
+.up-btn{
+    margin-top: 120px;
+    position: relative;
+    display: flex;
+    right: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.moon{
+    margin-top: 20px;
+}
+.icon-circle-home{
+width: 45px;
+top: 120px;
+
+  height: 45px;
+  border-radius: 50%;
+   /* sariq */
+  display: flex;
+  background: #ffb400;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+.icon-circle img {
+  width: 20px;
+  height: 20px;
+}
+
+.right-sidebar ul li a:hover .icon-circle {
+  background: #ffa000; /* hoverda biroz to‘q sariq */
+}
+
+/* Tooltip */
