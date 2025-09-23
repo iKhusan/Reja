@@ -38,11 +38,33 @@ app.get('/author', (req,res) => {
     res.render("author",{user: user});
 });
 app.post("/create-item", (req, res)=>{
+     console.log('user entered create-item')
     console.log(req.body);
-    res.json({test:"success"});
+    const newReja = req.body.reja;
+    db.collection("plans").insertOne({reja: newReja}, (err, data) => {
+        if(err) {
+            console.log(err);
+            res.end("something went wrong");
+
+      }  else {  res.end("successfully added");
+      
+      }
+    });
+ 
+    //res.json({test:"success"});
 });
 
 app.get("/", function(req, res){
-    res.render("reja");
+    console.log('user entered /')
+    db.collection("plans").find().toArray((err, data) => {
+if (err) {
+    console,log(err);
+    res.end("something went wrong");
+} else {
+
+     res.render("reja",{items:data});
+}
+    })
+   
 });
 module.exports = app;
