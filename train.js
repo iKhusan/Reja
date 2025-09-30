@@ -1,4 +1,27 @@
-      //MITASK-C 
+  // MITASK-D
+  /***************************************************************************
+   * Shunday function tuzing, u 2ta string parametr ega bolsin, 
+   * hamda agar har ikkala string bir hil harflardan iborat bolsa true 
+   * aks holda false qaytarsin
+   *   MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true   
+   *  * *************************************************************************/
+   
+  function Tekshiruvchi(str1, str2) {
+    if (str1.length !== str2.length) return false;
+  str1 = str1.toLowerCase();
+  str2 = str2.toLowerCase();
+    let sorted1 = str1.split("").sort().join("");
+    let sorted2 = str2.split("").sort().join("");
+
+    return sorted1 === sorted2;
+}
+
+console.log(Tekshiruvchi("JavaScript", "jvsaaicrpt")); 
+
+  
+  
+  
+  //MITASK-C 
 
 /****************************************************** 
 Shunday class tuzing tuzing nomi Shop,
@@ -11,56 +34,56 @@ return hozir 20:40da 4ta non, 5ta lagmon va 2ta cola mavjud!
 shop.sotish('non', 3) & shop.qabul('cola', 4) & shop.qoldiq()
  return hozir 20:50da 1ta non, 5ta lagmon va 6ta cola mavjud!
 ******************************************************************************/
-const moment = require("moment");
+// const moment = require("moment");
 
-class Shop {
-    constructor(Osh, Olma, Cola) {
-        this.products = {
-           Osh : Osh,
-           Olma: Olma,
-           Cola: Cola
-        };
-    }
+// class Shop {
+//     constructor(Osh, Olma, Cola) {
+//         this.products = {
+//            Osh : Osh,
+//            Olma: Olma,
+//            Cola: Cola
+//         };
+//     }
 
-    qoldiq() {
-        const time = moment().format("HH:mm");
-        const {Osh, Olma, Cola} = this.products;
-        const text = `hozir ${time}da ${Osh}ta osh, ${Olma}kg olma va ${Cola}ta cola mavjud!`;
-        console.log(text);
-        return text;
-    }
+//     qoldiq() {
+//         const time = moment().format("HH:mm");
+//         const {Osh, Olma, Cola} = this.products;
+//         const text = `hozir ${time}da ${Osh}ta osh, ${Olma}kg olma va ${Cola}ta cola mavjud!`;
+//         console.log(text);
+//         return text;
+//     }
 
-    sotish(nomi, son) {
-        const time = moment().format("HH:mm");
-        if (!Object.keys(this.products).includes(nomi)) {
-            console.log(`Mahsulot topilmadi: ${nomi}`);
-            return;
-        }
-        if (this.products[nomi] < son) {
-            console.log(`Yetarli ${nomi} yo‘q! Hozircha ${this.products[nomi]}ta bor.`);
-            return;
-        }
-        this.products[nomi] -= son;
-        console.log(`hozir ${time}da ${son}ta ${nomi} sotildi.`);
-    }
+//     sotish(nomi, son) {
+//         const time = moment().format("HH:mm");
+//         if (!Object.keys(this.products).includes(nomi)) {
+//             console.log(`Mahsulot topilmadi: ${nomi}`);
+//             return;
+//         }
+//         if (this.products[nomi] < son) {
+//             console.log(`Yetarli ${nomi} yo‘q! Hozircha ${this.products[nomi]}ta bor.`);
+//             return;
+//         }
+//         this.products[nomi] -= son;
+//         console.log(`hozir ${time}da ${son}ta ${nomi} sotildi.`);
+//     }
 
-    qabul(nomi, son) {
-        const time = moment().format("HH:mm");
-        if (!Object.keys(this.products).includes(nomi)) {
-            console.log(`Mahsulot topilmadi: ${nomi}`);
-            return;
-        }
-      this.products[nomi] += son;
-        console.log(`hozir ${time}da ${son}ta ${nomi} qabul qilindi.`);
-    }
-}
+//     qabul(nomi, son) {
+//         const time = moment().format("HH:mm");
+//         if (!Object.keys(this.products).includes(nomi)) {
+//             console.log(`Mahsulot topilmadi: ${nomi}`);
+//             return;
+//         }
+//       this.products[nomi] += son;
+//         console.log(`hozir ${time}da ${son}ta ${nomi} qabul qilindi.`);
+//     }
+// }
 
 
-const shop = new Shop(4, 5, 2);
-shop.qoldiq();            
-shop.sotish('Osh', 3);    
-shop.qabul('Cola', 4);   
-shop.qoldiq();           
+// const shop = new Shop(4, 5, 2);
+// shop.qoldiq();            
+// shop.sotish('Osh', 3);    
+// shop.qabul('Cola', 4);   
+// shop.qoldiq();           
 
 
 
