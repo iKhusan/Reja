@@ -1,3 +1,36 @@
+/*
+MIT E-TASK
+
+Shunday function tuzing, u bitta string 
+argumentni qabul qilib osha stringni teskari qilib return qilsin.
+MASALAN: getReverse("hello") return qilsin "olleh"
+*/  
+  
+  function getReverse(str) {
+
+  return str.split("").reverse().join("");
+}
+
+
+console.log(getReverse("response"));   
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   // MITASK-D
   /***************************************************************************
    * Shunday function tuzing, u 2ta string parametr ega bolsin, 
@@ -6,17 +39,17 @@
    *   MASALAN checkContent("mitgroup", "gmtiprou") return qiladi true   
    *  * *************************************************************************/
    
-  function Tekshiruvchi(str1, str2) {
-    if (str1.length !== str2.length) return false;
-  str1 = str1.toLowerCase();
-  str2 = str2.toLowerCase();
-    let sorted1 = str1.split("").sort().join("");
-    let sorted2 = str2.split("").sort().join("");
+//   function Tekshiruvchi(str1, str2) {
+//     if (str1.length !== str2.length) return false;
+//   str1 = str1.toLowerCase();
+//   str2 = str2.toLowerCase();
+//     let sorted1 = str1.split("").sort().join("");
+//     let sorted2 = str2.split("").sort().join("");
 
-    return sorted1 === sorted2;
-}
+//     return sorted1 === sorted2;
+// }
 
-console.log(Tekshiruvchi("JavaScript", "jvsaaicrpt")); 
+// console.log(Tekshiruvchi("JavaScript", "jvsaaicrpt")); 
 
   
   
