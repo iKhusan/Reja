@@ -1,3 +1,50 @@
+/*
+TASK G:
+
+Yagona parametrga ega function tuzing.
+Va bu function parametr orqalik integer ma'lumot turlariga ega bo'lgan bir arrayni qabul qilsin.
+Ushbu function bizga arrayning tarkibidagi birinchi eng katta qiymatning indeksini qaytarsin.
+
+MASALAN: getHighestIndex([5, 21, 12, 21 ,8]); return qiladi 1 sonini
+Yuqoridagi misolda, birinchi indeksda 21 joylashgan.
+Va bu 21 soni arrayning tarkibidagi birinchi eng katta son hisobladi va bizga uning indeksi 1 qaytadi.*/ 
+
+// getHighestIndex.js
+
+function getHighestIndex(arr) {
+  if (!Array.isArray(arr)) {
+    throw new TypeError("Argument massiv (array) bo‘lishi kerak!");
+  }
+
+
+ 
+  let max = arr[0];
+  let index = 0;
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+      index = i;
+    }
+  }
+
+  return index;
+}
+
+
+console.log(getHighestIndex([10, 3, 45, 7]));        
+
+
+
+
+
+
+
+
+
+
+
+//=============================================================================================
 /* TASK-F
 
 Yagona string argumentga ega findDoublers nomli function tuzing
@@ -7,26 +54,26 @@ true yokida false natija qaytarsin.
 MASALAN: findDoublers("hello"); natija true qaytadi.
 Sababi ikki marotaba takrorlangan 'll' harfi mavjud! */
 
-function findDoublers(str) {
-  if (typeof str !== "string") {
-    throw new TypeError("Argument string bo‘lishi kerak!");
-  }
+// function findDoublers(str) {
+//   if (typeof str !== "string") {
+//     throw new TypeError("Argument string bo‘lishi kerak!");
+//   }
 
-  const word = new Set();
+//   const word = new Set();
 
-  for (let ch of str) {
-    if (word.has(ch)) {
-      return true; 
-    }
-    word.add(ch);
-  }
+//   for (let ch of str) {
+//     if (word.has(ch)) {
+//       return true; 
+//     }
+//     word.add(ch);
+//   }
 
-  return false; 
-}
+//   return false; 
+// }
 
 
-console.log(findDoublers("modelling")); 
-console.log(findDoublers("adbk"));
+// console.log(findDoublers("modelling")); 
+// console.log(findDoublers("adbk"));
 
 
 
